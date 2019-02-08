@@ -28,6 +28,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 header{
@@ -280,20 +281,21 @@ ul:after{
 
 }
 .section{
-    margin-top: 100px;
     max-width: 1200px;
     margin-right: 60px;
+    margin-top: 25px;
     margin-left: 60px;
     box-shadow: 0 0 5px 3px rgba(221, 221, 221, 1);
     margin-bottom: 100px;
 
 }
 .brandon{
+    font-family: 'Lato', sans-serif;
     float: right;
     background: red;
     line-height:50px;
     margin-bottom: 50px;
-    padding:18px 638px 16px 54px;
+    padding:18px 637px 16px 54px;
     color: white;
 }
 .brandon:after{
@@ -308,7 +310,16 @@ ul:after{
     font-size: 19px;
     background: white;
 
-
+}
+.SUCCESS{
+    font-family: 'Lato', sans-serif;
+    margin-top: 25px;
+    background: black;
+    line-height:50px;
+    color: white;
+    text-align: center;
+    padding: 24px 416px;
+    font-size: 34px;
 }
 
 /*.text_block{*/
