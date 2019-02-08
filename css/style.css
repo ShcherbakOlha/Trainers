@@ -16,6 +16,15 @@
     url('fonts/BebasNeueRegular.ttf') format('truetype'),
     url('fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
 }
+@font-face {
+    font-family: 'Adobe Clean Regular';
+    src: url('AdobeClean-Regular.eot');
+    src: url('AdobeClean-Regular.eot?#iefix') format('embedded-opentype'),
+    url('AdobeClean-Regular.woff') format('woff'),
+    url('AdobeClean-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     margin: 0;
     padding: 0;
@@ -271,14 +280,46 @@ ul:after{
 
 }
 .section{
-    margin-top: 200px;
+    margin-top: 100px;
+    max-width: 1200px;
+    margin-right: 60px;
+    margin-left: 60px;
+    box-shadow: 0 0 5px 3px rgba(221, 221, 221, 1);
+    margin-bottom: 100px;
+
+}
+.brandon{
+    float: right;
+    background: red;
+    line-height:50px;
+    margin-bottom: 50px;
+    padding:18px 638px 16px 54px;
+    color: white;
+}
+.brandon:after{
+    content: "";
+    clear: both;
+}
+.Stan_McQuay{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding:5px 70px 50px 440px;
+    line-height:30px;
+    font-size: 19px;
+    background: white;
+
+
 }
 
+/*.text_block{*/
+    /*float: right;*/w
+/*}*/
     /*max-width: 1170px;*/
     /*margin: auto;*/
 /*}*/
 /*.container_1:after{*/
-    /*content: "";*/
+
+   /*content: "";*/
     /*display: block;*/
     /*clear: both;*/
 /*}*/
