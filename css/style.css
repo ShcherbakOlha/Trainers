@@ -346,19 +346,23 @@ ul:after{
     content:"<";
     font-size: 25px;
     color: red;
-}
-.owl-nav .owl-prev{
     position: absolute;
-    left: -15px;
-    top: 40%;
+    left: -23px;
+    top: 45%;
 }
-.owl-nav .owl-next:before{
+/*.owl-nav .owl-prev{*/
+    /*position: absolute;*/
+    /*left: -25px;*/
+    /*top: 40%;*/
+/*}*/
+.owl-nav .owl-prev:before{
     display: block;
     content:">";
     font-size: 25px;
     color: red;
-    margin-left: 1200px;
-
+    position: absolute;
+    left: 1210px;
+    top: 45%;
 
 }
 
