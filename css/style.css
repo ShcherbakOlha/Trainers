@@ -278,8 +278,16 @@ ul:after{
 }
 .background img{
     width: 100%;
+/*}*/
+/*.trainers{*/
+    /*font-family: 'BebasNeueRegular';*/
+    /*color: white;*/
+    /*margin-top:150px;*/
+    /*font-size: 40px;*/
+    /*border-bottom: solid 4px #ff0000;*/
+    /*padding: 0 515px 85px;*/
 
-}
+/*}*/
 .section{
     max-width: 1200px;
     margin-right: 60px;
