@@ -290,13 +290,17 @@ ul:after{
 
 }
 .brandon{
-    font-family: 'Lato', sans-serif;
+    font-family: 'BebasNeueRegular'
     float: right;
     background: red;
-    line-height:50px;
+    line-height:28px;
     margin-bottom: 50px;
-    padding:18px 637px 16px 54px;
+    padding:17px 601px 17px 100px;
     color: white;
+    text-transform: uppercase;
+    margin-left: 320px;
+    font-size: 19px;
+
 }
 .brandon:after{
     content: "";
@@ -312,7 +316,7 @@ ul:after{
 
 }
 .SUCCESS{
-    font-family: 'Lato', sans-serif;
+    font-family: 'BebasNeueRegular'
     margin-top: 25px;
     background: black;
     line-height:50px;
@@ -321,16 +325,51 @@ ul:after{
     padding: 24px 416px;
     font-size: 34px;
 }
+.owl-carousel button.owl-dot span{
+    width:5px;
+    height:5px;
+    border-radius: 5px;
+    display: inline-block;
+    background: black;
+    margin:0 11px;
+}
+.owl-dots{
+    text-align: center;
+}
+.owl-carousel button.owl-dot.active span{
+    width:7px;
+    height:7px;
+    background: red;
+}
+.owl-nav .owl-prev:after{
+    display: block;
+    content:"<";
+    font-size: 25px;
+    color: red;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -15px;
+    top: 40%;
+}
+.owl-nav .owl-next:before{
+    display: block;
+    content:">";
+    font-size: 25px;
+    color: red;
+    margin-left: 1200px;
 
-/*.text_block{*/
-    /*float: right;*/w
+
+}
+
+    /*float: right;*width: ;
 /*}*/
-    /*max-width: 1170px;*/
+    /*max-width: 1170px;*/0
     /*margin: auto;*/
 /*}*/
 /*.container_1:after{*/
 
-   /*content: "";*/
+   /*content: "";*/v
     /*display: block;*/
     /*clear: both;*/
 /*}*/
